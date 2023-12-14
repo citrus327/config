@@ -1,0 +1,19 @@
+{
+  "name": "%PACKAGE_NAME%",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "default": "./dist/index.cjs"
+    }
+  },
+  "author": "citrus327",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
