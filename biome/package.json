@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "lint": "biome lint packages/*/src/**/* --apply",
+    "format": "biome format packages/*/src/**/* --write",
+    "lf": "pnpm run lint && pnpm run format"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.4.1"
+  }
+}
