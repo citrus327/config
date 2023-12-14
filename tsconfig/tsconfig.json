@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.node.json",
+  "compilerOptions": {
+    // alias
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+    },
+  },
+  "include":  ["src"],
+  "exclude": [
+    "**/dist/**",
+    "**/node_modules/**"
+  ]
+}
